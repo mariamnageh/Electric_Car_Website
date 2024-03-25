@@ -1,1 +1,1 @@
-![Output](https://github.com/mariamnageh/Electric_Car_Website/assets/105167781/ce6a3120-5f28-4d47-9462-794b7d824552)
+![Output](https://github.com/mariamnageh/Electric_Car_Website/assets/105167781/139379e5-baec-4108-b64e-89347a7fefd6)
