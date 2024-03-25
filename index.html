@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric Car</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="header2">
+            <nav>
+                <div class="brand">
+                    <img src="images/electricity.png" alt="" />
+                </div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Solutions</a></li>
+                    <li><a href="#" id="Features">Features</a></li>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="station">
+                    <button id="findStationBtn">Find Station</button>
+                </div>
+            </nav>
+            <section>
+                <div class="content">
+                    <h1>Go Electric Go Everywhere</h1>
+                    <p>Electric cars represent a pivotal shift in the automotive industry, heralding a cleaner, greener
+                        future for transportation.</p>
+                    <button>Learn More</button>
+                </div>
+
+        </div>
+        </section>
+        <footer id="footer">
+            <ul>
+                <li>More Power 130.7 bhp</li>
+                <li>Battery Capacity 30.2 KWH</li>
+                <li>Range 312 Km</li>
+                <li>Charging Time 60 Min (0-80%) </li>
+                <li>Max Power 332.7 bhp</li>
+                <li>Max Range 330 Km </li>
+            </ul>
+        </footer>
+        </div>
+    </header>
+    <script>
+        const Features = document.getElementById("Features");
+        const footer = document.getElementById("footer");
+
+        features.addEventListener('click', () => {
+            footer.classList.toggle("footers");
+            features.classList.toggle("clicks");
+        })
+    </script>
+</body>
+
+</html>
